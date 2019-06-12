@@ -5,15 +5,13 @@ import java.util.*;
 public class Calc {
 
     public static void main(String[] args) {
-        System.out.print("Enter current date(dd.MM.yyyy): ");
-        String d1 = new Scanner(System.in).nextLine();
         System.out.print("Enter your date of birth(dd.MM.yyyy): ");
         String d2 = new Scanner(System.in).nextLine();
         SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
         Date date1 = null;
         Date date2 = null;
         try{
-            date1 = format.parse(d1);
+            date1 = new Date();
             date2 = format.parse(d2);
         }catch (Exception e){
             System.out.println("Error: " + e.getMessage());
