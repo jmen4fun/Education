@@ -1,0 +1,9 @@
+.idea/
+build/
+ErrorScreen/
+target/
+apacheds-all-1.5.5.jar
+/*.zip
+pom.xml
+src/test/
+src/main/resources/
