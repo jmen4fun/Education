@@ -76,7 +76,7 @@ public class MathExample {
 
         System.out.print("Enter x: ");
         float x19 = Float.parseFloat(new Scanner(System.in).nextLine());
-        double result19 = Math.acos((int)(Math.tan(5 * x19 / Math.PI))) + Math.pow(x19, 3.2) / 28;
+        double result19 = Math.acos(Math.tan(5 * x19 / Math.PI)) + Math.pow(x19, 3.2) / 28;
         System.out.println(result19);
 
         System.out.print("Enter x: ");
