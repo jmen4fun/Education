@@ -2,7 +2,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.*;
 
-public class Calc {
+public class Calculator {
 
     public static void main(String[] args) {
         System.out.print("Enter your date of birth(dd.MM.yyyy): ");
