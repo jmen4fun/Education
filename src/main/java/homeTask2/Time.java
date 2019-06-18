@@ -1,3 +1,5 @@
+package homeTask2;
+
 import java.util.*;
 
 public class Time {

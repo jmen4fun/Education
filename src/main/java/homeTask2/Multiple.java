@@ -1,3 +1,5 @@
+package homeTask2;
+
 public class Multiple {
     public static void main(String[] args) {
         int numberCorrect = 150;
